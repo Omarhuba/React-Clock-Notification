@@ -1,0 +1,49 @@
+.Klocka{
+    width: 300px;
+    height: 300px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    .Stor{
+        border: 3px solid #fff;
+        width: 100px;
+        margin-left: 6rem;
+        margin-bottom: 15rem;
+        transform: translate( 0px, -60px);
+        // display: flex;
+        // align-items: center;
+
+    }
+
+}
+.tre{
+    transform: translate(130px, 70px);
+}
+.sex{
+    transform: translate(0px, 150px);
+}
+.nio{
+    transform: translate(-130px, -20px);
+}
+// .Liten{
+//     border: 3px solid #fff;
+//     width: 250px;
+//     transform: translate( 0px, 30px);
+//     display: flex;
+//     align-items: center;
+
+// }
+
+@media (prefers-reduced-motion: no-preference) {
+    .Stor {
+      animation: App-logo-spin infinite 60s linear;
+    }
+  }
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
